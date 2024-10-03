@@ -79,3 +79,11 @@ Try aiming it on people/faces and you can see how good it will work!
 ![facialrecognition](https://github.com/user-attachments/assets/96f40bf6-9aef-47af-a024-a15c11ad304c)
 
 
+## Contributors
+- Kim Dekker [Github](https://github.com/Kimdekker/)
+
+
+## Licentie
+
+This project is provided under the [MIT](/LICENSE) License
+
