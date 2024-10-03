@@ -22,4 +22,18 @@ Go to: File > examples > SEEED_Arduino_GroveAI > object_detection
 
 #### connect board
 Go to here: https://seeeddoc.github.io/Grove-Base_shield_v2/
-... and find out which ports you need for your board. I'm unsing a ESP32 board.
+... and find out which pins you should connect the grove for your board. I'm unsing a ESP32 board.
+
+So I did:
+- GND -> GND
+- VCC -> 3v3
+- SDA -> GPIO 21 (D22)
+- SCL = GPIO 22 (D21)
+
+Make sure to define those pins in the code:
+
+```
+#define PIN_WIRE_SDA 21
+#define PIN_WIRE_SCL 22
+```
+
