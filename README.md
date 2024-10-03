@@ -12,7 +12,7 @@ You'll need:
 Well, a locally running AI model like the SEEED AI module, has it's dataset running on the module itself. What that means is that the module does not need to make a connection with a server to receive data, but has it stored on it's chip. That means the system is fast and can run in eareas where an internet connection is low, or not available. This all is possible because the SEEED can make this data incredibly small. That is why we want to use the SEEED AI model. But we've got a node board to work with, so we might as wel make it work on more universal boards!
 
 
-### Installing library
+## Installing library
 
 Go to this github: https://github.com/Seeed-Studio/Seeed_Arduino_GroveAI
 
@@ -30,7 +30,7 @@ Go to: File > examples > SEEED_Arduino_GroveAI > object_detection
 ![object detection](https://github.com/user-attachments/assets/108c2998-21be-47dc-8401-c6148e79c312)
 
 
-#### connect board and run example code
+## connect board and run example code
 Go to here: https://seeeddoc.github.io/Grove-Base_shield_v2/
 ... and find out which pins you should connect the grove for your board. I'm unsing a ESP32 board.
 
@@ -68,7 +68,7 @@ Now go back to your file on Arduino IDE and upload the code again.
 In the serial monitor you now see things running. Try aiming the camera on people, and it should show it's counting people and a confidence score. 
 Thats good!
 
-#### Run it in Chrome
+## Run it in Chrome
 
 Now that it works, we can connect the camera with the USB-C cable to our PC and let Chrome run the Facial recognition.
 
