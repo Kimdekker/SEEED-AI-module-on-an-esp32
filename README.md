@@ -1,6 +1,16 @@
 # SEEED-AI-module-on-an-esp32
 
-...
+In this manual we will make the SEEED AI module work on an ESP32. 
+You'll need:
+- ESP32 by NodeMCU
+- SEEED AI module
+- Wiring from the module to the board
+- USBC to [your pc's input cable]
+- Chrome browser
+
+#### Why is using a locally wokring AI model on an ESP32 a good idea?
+Well, a locally running AI model like the SEEED AI module, has it's dataset running on the module itself. What that means is that the module does not need to make a connection with a server to receive data, but has it stored on it's chip. That means the system is fast and can run in eareas where an internet connection is low, or not available. This all is possible because the SEEED can make this data incredibly small. That is why we want to use the SEEED AI model. But we've got a node board to work with, so we might as wel make it work on more universal boards!
+
 
 ### Installing library
 
